@@ -1,0 +1,52 @@
+.full-width{
+    width: 100%;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.bootstrap-wrapper{
+  background-color: #f8e0e0;
+}
+
+a{
+    text-decoration: none;
+    color: sandybrown;
+    padding-top: 5px;
+}
+
+.mat-toolbar.mat-primary {
+  background: #333545;
+  color: sandybrown;
+}
+
+.user-icon{
+  margin-left: 15px;
+}
+
+h1{
+    color:green;
+    padding-top: 20px;
+}
+.wishlist-button{
+    display: flex;
+    align-content: center;
+    width: 0px;
+    /* background-color:tomato; */
+    color: #04AA6D;
+    cursor: pointer;
+    height: 0px;
+    border-radius: 0%;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.wishlist-button:hover {
+    color: forestgreen;
+  }
+
+
+/* .spacer{
+    flex: 1 1 auto;
+} */

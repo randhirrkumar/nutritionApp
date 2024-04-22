@@ -1,0 +1,12 @@
+<mat-toolbar color="primary">
+    <a *ngIf="!isLoggedIn" [routerLink]="'/'">Nutrition App</a>
+    <a *ngIf="isLoggedIn">Nutrition App</a>
+    <span class="example-spacer"></span>
+        <button mat-raised-button class = "color-button" [routerLink]="'/login'">Login</button>
+        <button mat-raised-button class = "color-button" [routerLink]="'/signup'" class="ml20 mr20">Sign Up</button>
+        <!-- <span *ngIf="isLoggedIn" class="material-symbols-rounded">person </span> -->
+        <!-- <a *ngIf="isLoggedIn && user" class="ml10 mr20">
+            {{user.username| titlecase}}
+        </a> -->
+        <!-- <button mat-raised-button color = "accent" *ngIf="isLoggedIn" (click)="logout()" class="ml20 mr20">Logout</button> -->
+</mat-toolbar>

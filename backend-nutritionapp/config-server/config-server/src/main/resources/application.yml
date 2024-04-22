@@ -1,0 +1,14 @@
+server:
+  port: 8087
+
+spring:
+  application:
+    name: nutrition-config-server
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/randhirrkumar1/config-server-properties.git
+          clone-on-start: true
+          

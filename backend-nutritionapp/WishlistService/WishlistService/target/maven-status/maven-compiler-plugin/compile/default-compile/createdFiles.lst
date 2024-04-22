@@ -1,0 +1,13 @@
+com\nutritionix\WishlistService\exception\GlobalExceptionHandler.class
+com\nutritionix\WishlistService\model\BrandedProduct.class
+com\nutritionix\WishlistService\repository\WishListRepository.class
+com\nutritionix\WishlistService\controller\WishListController.class
+com\nutritionix\WishlistService\exception\UserWishlistNotFoundException.class
+com\nutritionix\WishlistService\model\UserWishlist.class
+com\nutritionix\WishlistService\service\WishlistService.class
+com\nutritionix\WishlistService\WishlistServiceApplication.class
+com\nutritionix\WishlistService\filter\JwtFilter.class
+com\nutritionix\WishlistService\exception\DuplicateProductException.class
+com\nutritionix\WishlistService\feignClient\AuthClient.class
+com\nutritionix\WishlistService\customResponse\CustomResponse.class
+com\nutritionix\WishlistService\config\SecurityConfig.class

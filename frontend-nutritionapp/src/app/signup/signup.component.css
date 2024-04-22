@@ -1,0 +1,45 @@
+.full-width{
+    width: 100%;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+a{
+    text-decoration: none;
+    color: sandybrown;
+    padding-top: 5px;
+}
+
+.mat-toolbar.mat-primary {
+  background: #333545;
+  color: sandybrown;
+}
+
+.mat-toolbar-row, .mat-toolbar-single-row {
+  height: 54px;
+}
+
+.mat-mdc-raised-button.mat-unthemed {
+    --mdc-protected-button-container-color: green;
+    --mdc-protected-button-label-text-color: white;
+}
+
+.signup-card{
+    width: 50%;
+    margin: auto;
+}
+.bootstrap-wrapper{
+    background-color: #f8e0e0;
+}
+
+@media(max-width:767px) {
+    .signup-card {
+        width: 100%;
+    }
+}
+
+.mat-mdc-raised-button.color-button { 
+    background-color: green; color: white; 
+}

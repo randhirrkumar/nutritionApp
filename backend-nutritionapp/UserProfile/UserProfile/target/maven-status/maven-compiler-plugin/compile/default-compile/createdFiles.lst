@@ -1,0 +1,9 @@
+com\nutritionix\UserProfile\service\UserProfileService.class
+com\nutritionix\UserProfile\controller\UserProfileController.class
+com\nutritionix\UserProfile\exception\UsernameAlreadyExistsException.class
+com\nutritionix\UserProfile\repository\UserProfileRepository.class
+com\nutritionix\UserProfile\exception\GlobalExceptionHandler.class
+com\nutritionix\UserProfile\model\UserProfile.class
+com\nutritionix\UserProfile\UserProfileApplication.class
+com\nutritionix\UserProfile\custonresponse\CustomResponse.class
+com\nutritionix\UserProfile\exception\UsernameAndPasswordNotNullException.class

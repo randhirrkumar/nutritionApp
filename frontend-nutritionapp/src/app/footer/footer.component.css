@@ -1,0 +1,15 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+ 
+.mat-toolbar.mat-primary {
+    position: fixed;
+    bottom: 0;
+    background: #333545;
+    color: #fff;
+    z-index: 9999;
+  }
+
+  .mat-toolbar-row, .mat-toolbar-single-row {
+    height: 54px;
+  }

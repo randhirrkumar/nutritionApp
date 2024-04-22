@@ -1,0 +1,7 @@
+com\nutritionix\NutritionService\model\BrandedProduct.class
+com\nutritionix\NutritionService\controller\NutritionController.class
+com\nutritionix\NutritionService\feignClient\AuthClient.class
+com\nutritionix\NutritionService\exception\DataFetchingNutritionUrlException.class
+com\nutritionix\NutritionService\NutritionServiceApplication.class
+com\nutritionix\NutritionService\service\NutritionService.class
+com\nutritionix\NutritionService\exception\GlobalExceptionalHandler.class

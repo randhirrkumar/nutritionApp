@@ -1,0 +1,33 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+a{
+    text-decoration: none;
+    color: sandybrown;
+    padding-top: 5px;
+}
+
+
+.mat-toolbar.mat-primary {
+  background: #333545;
+  color: sandybrown;
+}
+
+.mat-mdc-raised-button.mat-unthemed {
+  --mdc-protected-button-container-color: green;
+  --mdc-protected-button-label-text-color: white;
+}
+
+.mat-toolbar-row, .mat-toolbar-single-row {
+  height: 54px;
+}
+
+
+.material-symbols-rounded {
+  font-variation-settings:
+  'FILL' 10,
+  'wght' 900,
+  'GRAD' 10,
+  'opsz' 48
+}

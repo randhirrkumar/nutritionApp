@@ -1,0 +1,45 @@
+.full-width{
+    width: 100%;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+a{
+    text-decoration: none;
+    color: sandybrown;
+    padding-top: 5px;
+}
+
+.mat-toolbar.mat-primary {
+  background: #333545;
+  color: sandybrown;
+}
+
+.mat-mdc-raised-button.mat-unthemed {
+    --mdc-protected-button-container-color: green;
+    --mdc-protected-button-label-text-color: white;
+}
+
+.mat-toolbar-row, .mat-toolbar-single-row {
+  height: 54px;
+}
+
+.login-card{
+    width: 50%;
+    margin: auto;
+}
+.bootstrap-wrapper{
+    height: calc(100vh - 108px);
+    background-color: #f8e0e0;
+}
+@media(max-width:767px) {
+    .login-card {
+        width: 100%;
+    }
+}
+
+.mat-mdc-raised-button.color-button { 
+    background-color: green; color: white; 
+}

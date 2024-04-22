@@ -1,0 +1,13 @@
+com\nutritionix\Authentication\exception\UserCredentialsNullException.class
+com\nutritionix\Authentication\exception\TokenGeneratingException.class
+com\nutritionix\Authentication\controller\AuthenticationController.class
+com\nutritionix\Authentication\exception\UserCredentialsMisMatch.class
+com\nutritionix\Authentication\exception\AuthenticationException.class
+com\nutritionix\Authentication\AuthenticationApplication.class
+com\nutritionix\Authentication\service\AuthenticationService.class
+com\nutritionix\Authentication\model\UserCredentials.class
+com\nutritionix\Authentication\customresponse\CustomResponse.class
+com\nutritionix\Authentication\exception\GlobalExceptionalHandler.class
+com\nutritionix\Authentication\config\SecurityConfig.class
+com\nutritionix\Authentication\repository\UserProfileRepository.class
+com\nutritionix\Authentication\model\UserProfile.class

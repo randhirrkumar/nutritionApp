@@ -1,0 +1,13 @@
+C:\Users\2101892\STS\NutritionixAppFinal\WishlistService\WishlistService\src\main\java\com\nutritionix\WishlistService\controller\WishListController.java
+C:\Users\2101892\STS\NutritionixAppFinal\WishlistService\WishlistService\src\main\java\com\nutritionix\WishlistService\repository\WishListRepository.java
+C:\Users\2101892\STS\NutritionixAppFinal\WishlistService\WishlistService\src\main\java\com\nutritionix\WishlistService\customResponse\CustomResponse.java
+C:\Users\2101892\STS\NutritionixAppFinal\WishlistService\WishlistService\src\main\java\com\nutritionix\WishlistService\exception\DuplicateProductException.java
+C:\Users\2101892\STS\NutritionixAppFinal\WishlistService\WishlistService\src\main\java\com\nutritionix\WishlistService\exception\GlobalExceptionHandler.java
+C:\Users\2101892\STS\NutritionixAppFinal\WishlistService\WishlistService\src\main\java\com\nutritionix\WishlistService\feignClient\AuthClient.java
+C:\Users\2101892\STS\NutritionixAppFinal\WishlistService\WishlistService\src\main\java\com\nutritionix\WishlistService\WishlistServiceApplication.java
+C:\Users\2101892\STS\NutritionixAppFinal\WishlistService\WishlistService\src\main\java\com\nutritionix\WishlistService\model\UserWishlist.java
+C:\Users\2101892\STS\NutritionixAppFinal\WishlistService\WishlistService\src\main\java\com\nutritionix\WishlistService\filter\JwtFilter.java
+C:\Users\2101892\STS\NutritionixAppFinal\WishlistService\WishlistService\src\main\java\com\nutritionix\WishlistService\config\SecurityConfig.java
+C:\Users\2101892\STS\NutritionixAppFinal\WishlistService\WishlistService\src\main\java\com\nutritionix\WishlistService\exception\UserWishlistNotFoundException.java
+C:\Users\2101892\STS\NutritionixAppFinal\WishlistService\WishlistService\src\main\java\com\nutritionix\WishlistService\service\WishlistService.java
+C:\Users\2101892\STS\NutritionixAppFinal\WishlistService\WishlistService\src\main\java\com\nutritionix\WishlistService\model\BrandedProduct.java

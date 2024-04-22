@@ -1,0 +1,76 @@
+<mat-toolbar color="primary">
+    <a>Nutrition App</a>
+    <span class="example-spacer"></span>
+    <a [routerLink]="'/search'"><span class="material-icons mr20" > search </span></a>
+    <!-- <a [routerLink]="'/wishlist'"><span class="material-icons mr10">favorite</span></a> -->
+    <a [routerLink]="'/home'"><span class="material-icons mr10">home</span></a>
+    <!-- <span class="material-icons mr10">favorite</span> -->
+    <!-- <span class="material-symbols-rounded">person </span> -->
+    <span color ="primary">
+        <!-- <span class="spacer"></span> -->
+        <button mat-icon-button [matMenuTriggerFor]="menu">
+            <mat-icon>person</mat-icon>
+        </button>
+        <mat-menu #menu="matMenu">
+          <a *ngIf="isLoggedIn && user" class="user-icon">
+            {{user| titlecase}}
+          </a>
+            <button mat-menu-item (click)="logout()">Logout</button>
+        </mat-menu>
+    </span>
+</mat-toolbar>
+
+<div class="text-center" *ngIf="nutritionData?.length === 0">
+  <h1>Wishlist is empty !!</h1>
+</div>
+
+<div style="display: flex; justify-content: center;" class="mt20 mb20">
+    <div  *ngFor="let data of nutritionData" class="card" style="width: 18rem; margin-right: 10px;">
+      <img [src]="data.image_url" class="card-img-top" alt="...">
+      <div class="card-body">
+        <table class="table">
+          <tbody>
+            <tr>
+              <td><h3 class="card-title"><b>{{data.nix_item_name}}</b></h3></td>
+              <td><span (click)="deleteItem(data.nix_item_id)" class="material-icons delete-button">delete</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <h4><i><p class="card-text ml10">Nutritions:</p></i></h4>
+      <table class="table table-bordered">
+        <tbody>
+          <tr>
+            <td>Calories</td>
+            <td>{{data.nf_calories}}</td>
+          </tr>
+          <tr>
+            <td>Fat</td>
+            <td>{{data.nf_total_fat}}</td>
+          </tr>
+          <tr>
+            <td>Carbohydrate</td>
+            <td>{{data.nf_total_carbohydrate}}</td>
+          </tr>
+          <tr>
+            <td>Sugar</td>
+            <td>{{data.nf_sugars}}</td>
+          </tr>
+          <tr>
+            <td>Protein</td>
+            <td>{{data.nf_protein}}</td>
+          </tr>
+        </tbody>
+      </table>
+      <!-- <div class="card-body wishlist-button" >
+        <span (click)="deleteItem(data.nix_item_id)" class="material-icons">delete</span>
+      </div> -->
+    </div>
+  </div>
+
+  <div style="height: 50px;">
+
+  </div>
+
+
+<!-- <app-footer></app-footer> -->
